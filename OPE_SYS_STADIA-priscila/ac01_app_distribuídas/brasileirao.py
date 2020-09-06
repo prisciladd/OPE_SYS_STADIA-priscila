@@ -1,3 +1,10 @@
+import json
+
+def pega_dados():
+    with open ('ano2018.json') as f:
+        dados= json.load(f)
+    return dados
+
 '''
 Grupo:
 Nome                        RA
